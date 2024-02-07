@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> basic survey form</title>
+</head>
+<body>
+    <section>
+        <div class="forms">
+            <form method="POST">
+               <fieldset>
+                <legend>Add User</legend><br>
+
+                    <label for="firstName">First Name<input type="text" placeholder="first Name"> </label><br>
+                    <label for="Email">Last Name<input type="text" placeholder="last name"> </label><br>
+                    <label for="latName">Email<input type="Email" placeholder="email address"></label><br>
+            
+                    <br>
+                    <section>
+                        <label>Status</label>
+                        <select>
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>Guest</option>
+                        </select>
+                    
+                       <br>
+                       <section>
+                        <h3>Choose your favourite programming language:</h3>
+                        <label>
+                            <input type="radio" name="type" value="1" checked>HTAM 
+                        </label> 
+                        <label>
+                            <input type="radio" name="type" value="2">CSS 
+                        </label> 
+                        <label>
+                            <input type="radio" name="type" value="3">JavaScript
+                        </label> 
+                    </section>
+                    <label for="comments">Comments:</label><br>
+                    
+                    <textarea name="comments" id="comments" cols="30" rows="10">Comments</textarea>
+        
+                    <form action="submit" method="post"><br>
+                        <label for="newsletter">Sign up for the newsletter:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+                
+                        <label for="terms">Agree to terms and conditions:</label>
+                        <input type="checkbox" id="terms" name="terms"><br><br>
+                
+                        
+                        <button type="submit"><a href="home.html">Submit</a></button>
+               </fieldset> 
+
+               
+            </form>
+            
+            </form>
+        </div>
+    </section>
+</body>
+</html>
